@@ -1,0 +1,22 @@
+main{
+    border: solid red 2px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 60px auto;
+    grid-template-areas: "sidebar topbar"
+                         "sidebar products"; 
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.topbar{
+    grid-area: topbar;
+}
+
+.products{
+    grid-area: products;
+}
