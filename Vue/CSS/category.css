@@ -7,11 +7,11 @@
     grid-template-rows: 60px 60px auto;
     grid-template-areas: "sidebar title"
                          "sidebar topbar"
-                         "sidebar products"; 
+                         "sidebar products";
 }
 
 .maincat div{
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 .sidebar{
     position: relative;
@@ -23,6 +23,7 @@
     height: auto;
     border: solid grey 1px;
     padding: 15px;
+    padding-left: 25px;
     top:60px;
     right:0;
     
@@ -32,6 +33,14 @@
 }
 .category-list li{
     padding-top: 15px;
+}
+.category-list li a{
+    text-decoration: none;
+    color: #24252A;
+}
+.category-list li a:hover{
+    text-decoration: none;
+    color: #0088a9;
 }
 .category-list li ul{
     position: relative;
@@ -63,6 +72,10 @@
     width: 20px;
     text-decoration: solid;
 }
+.category-list button:hover{
+    background-color: #24252A;
+    color: whitesmoke;
+}
 
 
 .title{
@@ -75,13 +88,30 @@
 }
 .topbar{
     grid-area: topbar;
+    padding-left: 15px;
+    border-bottom: solid grey 1px;
 }
 
 .products{
     grid-area: products;
+    padding-top: 15px;
+    padding-left: 15px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
 
 }
 
+.product{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid grey 1px;
+    padding-top: 15px;
+}
+.product a{
+    text-decoration: none;
+    color: #24252A;
+    font-weight: bold;
+}

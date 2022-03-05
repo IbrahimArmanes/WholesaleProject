@@ -9,27 +9,27 @@ require "header.php"
             <h3>Categories</h3>
             <br>
             <ul class="category-list">
-                <li>Category 1 <button id="show1"><b>+</b> </button>
+                <li><a href="#">Category 1</a> <button id="show1"><b>+</b> </button>
                     <ul class="" id="subcategory-list1">
-                        <li>Subcategory 1.1</li>
-                        <li>Subcategory 1.2</li>
-                        <li>Subcategory 1.3</li>
-                        <li>Subcategory 1.4</li>
+                        <li><a href="#">Subcategory 1.2</a></li>
+                        <li><a href="#">Subcategory 1.3</a></li>
+                        <li><a href="#">Subcategory 1.4</a></li>
+                        <li><a href="#">Subcategory 1.5</a></li>
                     </ul>
                     
                 </li>
-                <li>Category 2</li>
-                <li>Category 3</li>
-                <li>Category 4 <button id="show2"><b>+</b></button>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <li><a href="#">Category 4</a> <button id="show2"><b>+</b></button>
                     <ul class="" id="subcategory-list2">
-                        <li>Subcategory 4.1</li>
-                        <li>Subcategory 4.2</li>
-                        <li>Subcategory 4.3</li>
-                        <li>Subcategory 4.4</li>
+                        <li><a href="#">Subcategory 4.2</a></li>
+                        <li><a href="#">Subcategory 4.3</a></li>
+                        <li><a href="#">Subcategory 4.4</a></li>
+                        <li><a href="#">Subcategory 4.5</a></li>
                     </ul>
                     
                 </li>
-                <li>Category 5</li>
+                <li><a href="#">Category 5</a></li>
             </ul>
         </div>
 
@@ -47,26 +47,44 @@ require "header.php"
     </div>
     <div class="products">
 
-        <div class="product"> <p> <h3>Bread</h3></p> 
-            <img class="responsive" src="../img/bread.jpg" alt="">
+        <div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
         </div>
-        <div class="product"> <p> <h3>Bread</h3></p> 
-            <img class="responsive" src="../img/bread.jpg" alt="">
+        <div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
+        </div><div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
+        </div><div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
+        </div><div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
+        </div><div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
+        </div><div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
+        </div><div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
         </div>
-        <div class="product"> <p> <h3>Bread</h3></p> 
-            <img class="responsive" src="../img/bread.jpg" alt="">
-        </div>
-        <div class="product"> <p> <h3>Bread</h3></p> 
-            <img class="responsive" src="../img/bread.jpg" alt="">
-        </div>
-        <div class="product"> <p> <h3>Bread</h3></p>  
-            <img class="responsive" src="../img/bread.jpg" alt="">
-        </div>
-        <div class="product"> <p> <h3>Bread</h3></p> 
-            <img class="responsive" src="../img/bread.jpg" alt="">
-        </div>
-        <div class="product"> <p> <h3>Bread</h3></p>  
-            <img class="responsive" src="../img/bread.jpg" alt="">
+        <div class="product">
+            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="#">Bread</a>
+            <h4>10.00£</h4>
         </div>
     </div>
 
