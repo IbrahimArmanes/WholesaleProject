@@ -1,22 +1,87 @@
-main{
+.maincat{
     border: solid red 2px;
     height: auto;
     width: auto;
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 60px auto;
-    grid-template-areas: "sidebar topbar"
+    grid-template-rows: 60px 60px auto;
+    grid-template-areas: "sidebar title"
+                         "sidebar topbar"
                          "sidebar products"; 
 }
 
+.maincat div{
+    border: solid red 2px;
+}
 .sidebar{
+    position: relative;
     grid-area: sidebar;
 }
+.sidebar .category-box{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    border: solid grey 1px;
+    padding: 15px;
+    top:60px;
+    right:0;
+    
+}
+.category-list{
+    list-style-type: none;
+}
+.category-list li{
+    padding-top: 15px;
+}
+.category-list li ul{
+    position: relative;
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
 
+    -webkit-transition: max-height 0.1s;
+    -moz-transition: max-height 0.1s;
+    transition: max-height 0.1s;
+}
+.category-list li ul.open{
+    list-style-type: none;
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+.category-list li ul>li{
+    padding-left: 20px;
+}
+.category-list button{
+    position:absolute;
+    right: 8px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    text-decoration: solid;
+}
+
+
+.title{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    grid-area: title;
+    
+}
 .topbar{
     grid-area: topbar;
 }
 
 .products{
     grid-area: products;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+
 }
+
