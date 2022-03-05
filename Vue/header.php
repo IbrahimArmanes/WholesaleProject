@@ -51,19 +51,21 @@
                     <div class="top-part">
                         <li class="item2 "id="margin"><a  href="#">My account</a></li>
                         <li class="item2 " ><a  href="#">Basket</a></li>
-                        <li class="item itemDesktop "><a href="#">Category1</a></li>
-                        <li class="item itemDesktop "><a href="#">Category2</a></li>
-                        <li class="item itemDesktop "><a href="#">Category3</a></li>
-                        <li class="item itemDesktop "><a href="#">Category4</a></li>
-                        <li class="item itemDesktop "><a href="#">Category5</a></li>
+                        <li class="item itemDesktop"><a href="index.php">Home</a></li>
+                        <li class="item itemDesktop "><a href="category.php">Category1</a></li>
+                        <li class="item itemDesktop "><a href="category.php">Category2</a></li>
+                        <li class="item itemDesktop "><a href="category.php">Category3</a></li>
+                        <li class="item itemDesktop "><a href="category.php">Category4</a></li>
+                        <li class="item itemDesktop "><a href="category.php">Category5</a></li>
 
                     </div>
                     <div class="bottom-part">
-                        <li class="item "><a href="#">Category1</a></li>
-                        <li class="item "><a href="#">Category2</a></li>
-                        <li class="item "><a href="#">Category3</a></li>
-                        <li class="item "><a href="#">Category4</a></li>
-                        <li class="item "><a href="#">Category5</a></li>
+                        <li class="item "><a href="index.php">Home</a></li>
+                        <li class="item "><a href="category.php">Category1</a></li>
+                        <li class="item "><a href="category.php">Category2</a></li>
+                        <li class="item "><a href="category.php">Category3</a></li>
+                        <li class="item "><a href="category.php">Category4</a></li>
+                        <li class="item "><a href="category.php">Category5</a></li>
 
                     </div>
                 </ul>

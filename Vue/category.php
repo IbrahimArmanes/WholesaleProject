@@ -48,42 +48,42 @@ require "header.php"
     <div class="products">
 
         <div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.phproduct.php">Bread</a>
             <h4>10.00£</h4>
         </div>
         <div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div><div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div><div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div><div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div><div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div><div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div><div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div>
         <div class="product">
-            <a href="#"><img class="responsive" src="../img/bread.jpg" alt=""></a>
-            <a href="#">Bread</a>
+            <a href="product.php"><img class="responsive" src="../img/bread.jpg" alt=""></a>
+            <a href="product.php">Bread</a>
             <h4>10.00£</h4>
         </div>
     </div>
