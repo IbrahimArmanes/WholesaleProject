@@ -18,6 +18,7 @@ require "header.php"
     <div class="product-details">
         <h1>Product's title</h1>
         <br>
+        <br>
         <p class="price">£10.00</p>
         <br>
         <p class="availability">Availability : In stock</p>
@@ -58,16 +59,22 @@ require "header.php"
             </tbody>
         </table>
         <div class="add">
-            <div class="div-buttonLeft">
-                <button class="buttonLeft">-</button>
+            <div class="adjust">
+                <div class="buttonLeft">
+                    -
+                </div>
+                <div class="number">
+                    <input type="text">
+                </div>
+                <div class="buttonRight">
+                    +
+                </div>
             </div>
-            <div class="number">
-                <input type="text">
-            </div>
-            <div class="div-buttonRight">
-                <button class="buttonRight">+</button>
+            <div class="basket">
+                Add to basket
             </div>
         </div>
+        
     </div>
 
 

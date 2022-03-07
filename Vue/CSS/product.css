@@ -44,11 +44,16 @@
     width: 400px;
     top: 75px;
     left: 950px;
-    border: solid grey 1px;
+    padding-top: 0px;
+    padding: 10px;
     margin-left: 30px;
+}
+.price{
+    font-size: 20px;
 }
 .price-table tr,th,td{
     padding: 6px;
+    margin: 0;
     border: solid grey 1px;
 }
 .responsive{
@@ -57,26 +62,28 @@
     max-height: 100%;
 }
 /* Bouton d'ajout au panier*/
-
 .add{
+    display: flex;
+}
+
+.adjust{
     border: solid grey 1px;
-    padding-top: 3px;
-    height: 100px;
-    width: 100px;  
+    margin-top: 40px;
+    height: 30px;
+    width: 110px; 
+    display: flex;
+    align-items: center;
+    
 }
 .buttonLeft,.buttonRight{
     font-size: 20px;
     cursor: pointer;
     height: 100%;
-    width: 100%;
+    width: 25%;
     text-decoration: solid;
-    margin: 0;
-    padding: 0;
-}
-.div-buttonLeft,.div-buttonRight{
-    display: inline-block;
-    width: 20%;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .buttonLeft:hover,.buttonRight:hover{
@@ -85,14 +92,28 @@
 
 }
 .number{
-    display: inline-block;
-    max-width: 45%;
+    max-width: 50%;
 }
 .number input{
     max-width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    height: 30px;
+
+}
+.basket{
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 2px;
+    
+    
+    background-color: #0088a9;
+    color: whitesmoke;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Fin bouton d'ajout au panier*/
