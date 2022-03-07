@@ -6,12 +6,12 @@ require "header.php"
 <main class="mainprod">
     <div class="box-img">
         <div class="side-box">
-            <div class="other-img">Image 2</div>
-            <div class="other-img">Image 3</div>
-            <div class="other-img">Image 4</div>
+            <div class="other-img"><a href=""><img class="responsive" src="https://dummyimage.com/300x300/000/fff&text=Image+2" alt=""></a></div>
+            <div class="other-img"><a href=""><img class="responsive" src="https://dummyimage.com/300x300/000/fff&text=Image+3" alt=""></a></div>
+            <div class="other-img"><a href=""><img class="responsive" src="https://dummyimage.com/300x300/000/fff&text=Image+4" alt=""></a></div>
         </div>
         <div class="main-box">
-            <img class="product-img" src="../img/bread.jpg" alt="">
+            <img class="responsive product-img" src="../img/bread.jpg" alt="">
         </div>
         
     </div>
@@ -57,7 +57,17 @@ require "header.php"
                 
             </tbody>
         </table>
-
+        <div class="add">
+            <div class="div-buttonLeft">
+                <button class="buttonLeft">-</button>
+            </div>
+            <div class="number">
+                <input type="text">
+            </div>
+            <div class="div-buttonRight">
+                <button class="buttonRight">+</button>
+            </div>
+        </div>
     </div>
 
 
